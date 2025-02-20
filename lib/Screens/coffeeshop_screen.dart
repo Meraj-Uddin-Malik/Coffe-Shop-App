@@ -1,9 +1,7 @@
 import 'package:coffee_shop/Screens/cart_screen.dart';
 import 'package:coffee_shop/Screens/shop_screen.dart';
 import 'package:coffee_shop/components/bottom_nav_bar.dart';
-import 'package:coffee_shop/Screens/cart_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
 
 class CoffeeShopScreen extends StatefulWidget {
   const CoffeeShopScreen({super.key});
@@ -26,7 +24,7 @@ class _CoffeeShopScreenState extends State<CoffeeShopScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade300,
+      backgroundColor: Colors.brown.shade300,
       bottomNavigationBar: BottomNavBar(
         onTabChange: (index) => navigationBottomBar(index),
       ),
